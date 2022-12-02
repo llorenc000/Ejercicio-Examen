@@ -1,0 +1,7 @@
+sudo su
+nano 01-RUN.sh
+#!/bin/bash
+echo"Hola Mundo!"
+pwd
+chmod 777 01-RUN.sh
+./ 01-RUN.sh
